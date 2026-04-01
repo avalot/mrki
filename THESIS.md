@@ -190,20 +190,20 @@ The minimum product that tests the thesis:
 4. **Thanks** — private appreciation mechanic
 5. **Reputation engine** — v1, invisible, behavior-based
 6. **Moderation** — community flags + basic automated detection
-7. **Parental dashboard** — subscription management, high-level activity summary (not surveillance)
+7. **Parental billing** — optional parental email for authorization + payment (not required for free access)
 
 ### Phase 2: Stickiness (months 4–6)
 
 8. **Projects** — collaborative spaces for building things together
 9. **Events** — IRL meetup creation and confirmation
 10. **Diverse perspectives** — cross-circle content surfacing
-11. **School networks** — verified school-based groups
+11. **Governance tools** — community voting, proposal system, collective decision-making
 
 ### Phase 3: Growth (months 7–12)
 
-12. **API for educators** — schools can integrate projects/assignments
-13. **Mentorship** — verified adults (teachers, coaches) in structured roles
-14. **Creative tools** — built-in creation (not just consumption)
+12. **Collective action tools** — petitions, campaigns, coordinated asks (e.g. "tell your school to fund this")
+13. **Creative tools** — built-in creation (not just consumption)
+14. **City/region hubs** — organic geographic communities (not school-imposed)
 15. **Transition to 18+** — graceful aging-out with data portability
 
 ### Tech Stack (Lean)
@@ -217,43 +217,54 @@ The minimum product that tests the thesis:
 
 ---
 
-## Go-To-Market: The School-Network Virus
+## Go-To-Market: The Youth Takeover
 
-### The Strategy
+### The Cultural Position
 
-Social platforms are network-effect businesses. You can't launch to "all teens." You launch to **one school at a time**, and let it spread.
+This is **not** a platform that schools adopt, parents approve, and teens tolerate. That's the kiss of death. No teen wants to be on the platform their teacher recommended.
 
-### Phase 1: Seed Schools (months 1–3)
+Instead: **Mrki is the place teens build for themselves.** The pitch is:
 
-1. **Partner with 5–10 schools in France** (where the regulation hits first)
-2. **Work with one enthusiastic teacher per school** who runs a class project on the platform
-3. **It's free anyway** — no pricing conversation needed during land-grab phase (free until 2028)
-4. **Parents get invited through a school-branded onboarding** — trust transfer from the school
+> *"They banned your social media. They said it's bad for you. Fine. So build your own. Run it yourselves. Make it so good, so big, so undeniable, that they have no choice but to pay for it."*
 
-### Phase 2: School-to-School Spread (months 3–6)
+This is a power move, not a permission slip.
 
-5. **Students have friends at other schools** — they invite them
-6. **"Your friends at [School X] are on Mrki"** — the network effect starts
-7. **Parent WhatsApp groups** become the B2B2C channel — one parent tells another
-8. **Local press** covers the "school that quit Instagram" story
+### Phase 1: The Spark (months 1–3)
 
-### Phase 3: City-Level Tipping Point (months 6–12)
+1. **Seed with 200–500 opinionated teens** in 2–3 French cities — not through schools, through teen culture: skate parks, music scenes, art collectives, gaming communities, activist groups
+2. **Give them real governance power** — they vote on rules, they moderate, they shape the platform. This isn't a focus group; they're the founding citizens
+3. **The message spreads peer-to-peer**: *"We're building our own platform and we run it. Come help."*
+4. **It's free** — no barriers, no parent needed to sign up
 
-9. **When 30%+ of a city's schools are on, it tips** — the remaining schools can't not join
-10. **Expand to Belgium, Switzerland, Luxembourg** (French-speaking, similar regulatory environment)
-11. **Then Germany, Spain, Italy** as EU regulation spreads
+### Phase 2: The Movement (months 3–6)
 
-### Phase 4: Global (year 2+)
+5. **Teens recruit teens** — every referral = +1 month free (for when paid kicks in). The most connected kids become the growth engine
+6. **City-level identity forms** — "Mrki Paris," "Mrki Lyon," "Mrki Marseille" — organic geographic pride, not institutional
+7. **The narrative becomes media-worthy**: *"French teens are building their own social network because adults couldn't"*
+8. **TikTok/Instagram become the ironic recruitment channel** — teens post about leaving, creating FOMO on the platforms they're leaving
 
-12. **US, UK, Australia, Japan** — everywhere parents are worried and willing to pay
-13. **Localization** is straightforward — the platform is text-and-project-based, not content-licensed
+### Phase 3: The Pressure Campaign (months 6–12)
+
+9. **Collective action**: once the community is large enough, teens organize to demand funding
+   - *"We have 50K users. We moderate ourselves. We don't have ads. Now pay for it."*
+   - Target: municipal governments, school boards, family associations
+   - This is the teens asking, not the company — **the community is the lobby**
+10. **Media amplification**: the story of teens self-organizing a healthy social network is irresistible to press
+11. **Political alignment**: politicians who passed the ad-ban law now have a success story to point to
+
+### Phase 4: The Tipping Point (year 2+)
+
+12. **Expand to Belgium, Germany, Spain, Italy** — same playbook: seed with teen culture, let it spread
+13. **US, UK, Australia, Japan** — everywhere teens are fed up and the regulatory winds are shifting
+14. **The platform's identity is set**: this is the place teens chose, built, and fought for. Adults are guests.
 
 ### Viral Mechanics
 
-- **School leaderboards** (how active is your school's community — NOT individual vanity)
-- **Inter-school projects** (collaborate with the school across town)
-- **Parent referral program** (invite another family, get a month free)
-- **Student ambassador program** (teens who help onboard their friend group)
+- **Referral = free months** (uncapped — the most social teens never pay)
+- **Founding citizen status** — early adopters get permanent recognition (not privileges, just identity)
+- **Community milestones** — "Mrki [City] just hit 10K" — collective achievement, not individual vanity
+- **The "come build with us" pitch** — not "join our platform" but "help us build ours"
+- **Governance participation** — voting on rules is a reason to come back, and a reason to invite friends who share your values
 
 ---
 
@@ -262,10 +273,10 @@ Social platforms are network-effect businesses. You can't launch to "all teens."
 ### Why Now
 
 1. **Regulatory catalyst**: France's law (2025–2026) creates the first real market for a non-ad teen platform. The EU will follow with the Digital Services Act enforcement.
-2. **Parental willingness to pay**: for the first time, parents are being told by their government that existing platforms are harmful. This converts "concern" into "action."
-3. **Teen fatigue**: Gen Z and Gen Alpha report increasing dissatisfaction with existing platforms. They want something different — they just don't have it.
+2. **Teen anger is an asset**: teens aren't sad about losing Instagram — they're pissed off. That energy converts into action: building, recruiting, organizing. You can't buy that kind of engagement.
+3. **Willingness to pay follows proof**: parents and institutions won't pay upfront for a hypothetical. But when 50K teens are already on a self-moderated, ad-free platform? That's a line item, not a gamble.
 4. **Technical feasibility**: building a social platform in 2026 is dramatically cheaper than in 2010. Cloud infrastructure, open-source tooling, and AI-assisted development mean a small team can move fast.
-5. **Cultural moment**: there is a post-pandemic, post-enshittification hunger for genuine human connection online. The vibes are right.
+5. **Cultural moment**: there is a post-pandemic, post-enshittification hunger for genuine human connection online. And teens want agency, not supervision.
 
 ### Market Size
 
@@ -285,23 +296,24 @@ Social platforms are network-effect businesses. You can't launch to "all teens."
 | Bark/Qustodio | Surveillance tools, not platforms — teens hate them |
 | School LMS (Google Classroom) | Not social, not fun, institutional |
 
-**Our wedge**: we are the only platform that is simultaneously **parent-trusted**, **teen-appealing**, and **ad-free by design**.
+**Our wedge**: we are the only platform that is **teen-owned in spirit**, **ad-free by design**, and **credible enough that institutions will fund it**.
 
 ### Defensibility
 
-1. **Network effects** — school-level lock-in is powerful
+1. **Network effects** — city-level and friend-group-level lock-in is powerful
 2. **Reputation data** — the reputation graph is a moat (non-exportable, non-copyable)
 3. **Regulatory alignment** — we're built for the regulatory future; incumbents are built against it
-4. **Cultural identity** — "I'm on Mrki" becomes a statement of values, like choosing Firefox over Chrome
+4. **Cultural identity** — "I'm on Mrki" is a statement of independence, like choosing Linux over Windows
+5. **Community ownership feeling** — teens who helped build the rules will fight to keep the platform alive
 
 ### The Ask
 
 **Seed round: €2–3M**
 
 - 18 months of runway
-- Team of 8–10 (engineering, design, community, one commercial lead)
-- Launch in 10 French schools
-- Target: 10K active users, 50+ schools, clear retention and engagement data
+- Team of 8–10 (engineering, design, community, one community organizer)
+- Seed with teen culture in 3 French cities
+- Target: 50K active users, self-governing community, clear retention data
 - Path to Series A at €15–20M valuation
 
 ---
@@ -318,26 +330,26 @@ Social media is making teens miserable. Everyone knows it. Nobody has built the 
 France just made ad-based social media illegal for under-15s. The EU is next. For the first time, there's a market for something better.
 
 ### Slide 4: The Solution
-Ad-free. Privacy-first. Self-moderated. Parent-paid.
-A platform where "Thank" replaces "Like," reputation is invisible, and meeting IRL is the highest-status thing you can do.
+Ad-free. Privacy-first. Self-governed. Teen-built.
+*"You banned our social media? Fine. We'll build our own. Now pay for it."*
 
 ### Slide 5: How It Works
-Core mechanics: Thanks, Reputation, IRL-first, Diverse Perspectives, Pre-Post Reflection, Anti-Ad Immune System.
+Core mechanics: Thanks (not Likes), Invisible Reputation, Fluid Identity, IRL-first, Diverse Perspectives, Community Governance, Anti-Ad Immune System.
 
 ### Slide 6: Business Model
 Free until 2028. Then: 6 months free + 1 month per referral (uncapped). €5/month when free runs out, paid by parents. 80%+ gross margin. ~€0 CAC.
 
 ### Slide 7: Go-To-Market
-School-by-school viral expansion. Start with 10 French schools. Spread through student networks and parent word-of-mouth.
+Teen-to-teen viral spread. Seed with youth culture in 3 French cities. Teens recruit teens, build governance, then demand institutional funding.
 
 ### Slide 8: Market Size
 8M French teens. 50M European teens. 500M+ globally. €30B+ TAM at scale.
 
 ### Slide 9: Competitive Landscape
-The only platform that is parent-trusted, teen-appealing, and ad-free by design. Incumbents can't credibly pivot.
+The only platform that is teen-owned in spirit, ad-free by design, and credible enough that institutions will fund it.
 
 ### Slide 10: Traction / Plan
-Phase 1 MVP in 3 months. 10 seed schools. 10K users in 12 months.
+Phase 1 MVP in 3 months. Seed in 3 cities. 50K users in 12 months. Self-governing community.
 
 ### Slide 11: Team
 [To be filled — need founder profiles]
@@ -355,7 +367,7 @@ A generation of teens who grew up on a platform that made them *better* — more
 ## Open Questions
 
 - **Name**: "Mrki" — does it work? (Short, memorable, no meaning to co-opt, easy to type)
-- **Content moderation at scale**: how to keep self-moderation working as the platform grows beyond school-sized communities?
+- **Content moderation at scale**: how to keep self-moderation working as the platform grows beyond city-sized communities?
 - **International regulatory differences**: COPPA (US), Age Appropriate Design Code (UK) — how much do we localize compliance?
 - **Monetization beyond subscriptions**: marketplace for teen-created content/products? Ethical sponsorships?
 - **Open source?**: would open-sourcing the platform increase trust and defensibility?
