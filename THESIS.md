@@ -35,7 +35,7 @@ A social and collaboration platform for teens (13–18) that is:
 
 | Principle | How |
 |---|---|
-| **Ad-free** | Parent-paid subscription. No ads, no data sales, ever. |
+| **Ad-free** | Viral freemium → parent-paid. No ads, no data sales, ever. |
 | **Privacy-first** | Minimal data collection. No tracking. No profiling. Data belongs to the user. |
 | **Self-moderated** | Community-driven moderation with reputation mechanics — not corporate censors, not unmoderated chaos. |
 | **Anti-vanity** | You don't see other people's stats. No like counts. No follower leaderboards. |
@@ -86,7 +86,35 @@ Before publishing, the platform asks:
 
 These are **optional, low-friction nudges** — not gatekeeping. But they're there, and they work.
 
-### 6. Anti-Advertising Immune System
+### 6. Fluid Identity
+
+Your identity on Mrki is yours to shape:
+- **Pick and change your avatar and display name anytime** — experiment, evolve, reinvent yourself
+- **Account is tied to your phone number and/or email** — one real person, one account, but your public identity is up to you
+- **No real-name policy** — pseudonymity is a feature, not a bug. Teens need space to figure out who they are without everything being permanently tied to their legal name
+- **Reputation follows your account, not your display name** — you can change your name, but you can't escape your behavior
+
+### 7. Smart Age Verification
+
+No invasive ID scanning. No government databases. Instead, **smart, layered checking**:
+
+- **Declared age** at signup — the baseline
+- **Friend group age signals** — if all your friends are 14, you're probably not 25
+- **Content and behavior patterns** — language, interests, posting patterns corroborate or contradict declared age
+- **Cross-referencing** — these signals reinforce each other over time
+
+**Lying about your age has consequences:**
+- Detected mismatches trigger a review
+- Confirmed age fraud results in account restrictions or suspension
+- This protects both directions: adults pretending to be teens, and young kids pretending to be older
+
+**Kid-powered content flagging:**
+- Any user can flag content as *"not for kids my age"*
+- Any user can flag content as *"not for younger kids"*
+- These flags feed into age-appropriate content filtering — the community teaches the system what's appropriate at what age
+- This is not censorship — it's **community-driven age-gating**, and it gets smarter over time
+
+### 8. Anti-Advertising Immune System
 
 Any content that looks like covert advertising is:
 - Flagged by the community
@@ -100,29 +128,52 @@ Any content that looks like covert advertising is:
 
 ## Business Model
 
-### Revenue: Parent-Paid Subscription
+### Viral Freemium → Parent-Paid
+
+**Phase 0: Free for everyone (launch → 2028)**
+
+The platform is completely free for all users until 2028. No paywall, no friction, no "premium features behind a gate." This is the land-grab phase — grow the network, prove the product, build habits.
+
+**Phase 1: Freemium with referral engine (2028+)**
+
+- **6 months free** for every new user
+- **Every person you invite** who joins = **+1 month free** for you (no cap)
+- Active community members can stay free indefinitely through organic referrals
+- After free months run out: **€5/month**, paid by parents (for under-18s) or by the user (18+)
 
 | Tier | Price | What |
 |---|---|---|
-| **Core** | €5/month | Full platform access for one teen |
+| **Solo** | €5/month | Full platform access for one person |
 | **Family** | €9/month | Up to 3 teens |
 | **Community** | €12/month | Up to 5 teens + school/org features |
 
-**At 18, the user takes over the subscription** (or moves to a free tier with limited features, or the platform has evolved enough to offer freemium without ads).
+This means: **the most social, most connected users never pay** — they earn their access by growing the network. Payment kicks in for less-active users who still want access, and for parents who'd rather just pay than have their teen recruit friends.
 
-### Why Parents Will Pay
+**At 18, the user takes over billing** — or keeps earning free months through referrals.
 
-1. **Regulatory push** — France (and soon the EU) is telling them existing platforms are harmful
-2. **Peace of mind** — no ads, no data harvesting, no predatory engagement loops
-3. **Visible value** — their teen is making real friends, working on real projects, going outside
-4. **Social proof** — other parents in the school are doing it
-5. **It's cheaper than therapy** — €5/month vs. the cost of social media-induced anxiety
+### Why This Works
+
+1. **Zero friction to join** — no credit card, no parent approval needed for the free trial
+2. **Referral loop is the growth engine** — every user is incentivized to bring their friend group
+3. **Parents pay when they see value** — by the time the free period ends, their teen has real friendships and projects on the platform
+4. **No dark patterns** — the billing page is straightforward. No tricks, no "you'll lose your data" threats. Just: "want to keep going? Here's what it costs."
+5. **Regulatory tailwind** — parents are being told by their government to find alternatives. They're primed to pay.
+6. **It's cheaper than therapy** — €5/month vs. the cost of social media-induced anxiety
+
+### Parental Billing Flow
+
+1. Teen signs up freely (phone number or email)
+2. When free period ends (or anytime before), teen enters parent's email
+3. Parent receives a clear, no-nonsense email: *"Your child uses Mrki. Here's what it is. Here's what it costs. Here's how to pay."*
+4. Parent pays → teen continues. Parent doesn't pay → teen can still earn months through referrals.
+5. **No dark patterns.** No guilt-tripping. No "your child will lose their friends." Just facts and a pay button.
 
 ### Unit Economics Target
 
-- **CAC**: < €15 (school-network viral loops)
-- **LTV**: €300+ (5-year average teen tenure × €5/month)
-- **LTV:CAC**: > 20:1
+- **CAC**: ~€0 (viral referral loop — users acquire users)
+- **Conversion rate target**: 30% of users convert to paid after free period
+- **ARPU**: €3.50/month blended (mix of free-via-referral and paid)
+- **LTV**: €200+ (4-year average tenure × blended ARPU)
 - **Gross margin**: > 80% (low infrastructure cost, no content licensing, no ad-tech stack)
 
 ---
@@ -162,7 +213,7 @@ The minimum product that tests the thesis:
 - **Infrastructure**: Fly.io or similar — EU-hosted, GDPR-native
 - **Database**: PostgreSQL + Redis
 - **Moderation**: combination of community signals + lightweight ML
-- **Auth**: age-verified onboarding with parental consent flow
+- **Auth**: phone/email signup, smart age verification, parental consent flow
 
 ---
 
@@ -176,7 +227,7 @@ Social platforms are network-effect businesses. You can't launch to "all teens."
 
 1. **Partner with 5–10 schools in France** (where the regulation hits first)
 2. **Work with one enthusiastic teacher per school** who runs a class project on the platform
-3. **Offer the first semester free** for the entire school
+3. **It's free anyway** — no pricing conversation needed during land-grab phase (free until 2028)
 4. **Parents get invited through a school-branded onboarding** — trust transfer from the school
 
 ### Phase 2: School-to-School Spread (months 3–6)
@@ -274,7 +325,7 @@ A platform where "Thank" replaces "Like," reputation is invisible, and meeting I
 Core mechanics: Thanks, Reputation, IRL-first, Diverse Perspectives, Pre-Post Reflection, Anti-Ad Immune System.
 
 ### Slide 6: Business Model
-€5/month per teen, paid by parents. Family and school tiers. 80%+ gross margin. LTV:CAC > 20:1.
+Free until 2028. Then: 6 months free + 1 month per referral (uncapped). €5/month when free runs out, paid by parents. 80%+ gross margin. ~€0 CAC.
 
 ### Slide 7: Go-To-Market
 School-by-school viral expansion. Start with 10 French schools. Spread through student networks and parent word-of-mouth.
@@ -304,9 +355,9 @@ A generation of teens who grew up on a platform that made them *better* — more
 ## Open Questions
 
 - **Name**: "Mrki" — does it work? (Short, memorable, no meaning to co-opt, easy to type)
-- **Age verification**: how to do this without being invasive? (School-based verification could be the answer)
-- **Transition at 18**: free tier? Adult pricing? Graceful exit with data portability?
-- **Content moderation at scale**: how to keep self-moderation working as the platform grows?
-- **International regulatory differences**: COPPA (US), Age Appropriate Design Code (UK), etc.
+- **Content moderation at scale**: how to keep self-moderation working as the platform grows beyond school-sized communities?
+- **International regulatory differences**: COPPA (US), Age Appropriate Design Code (UK) — how much do we localize compliance?
 - **Monetization beyond subscriptions**: marketplace for teen-created content/products? Ethical sponsorships?
 - **Open source?**: would open-sourcing the platform increase trust and defensibility?
+- **Abuse of referral system**: how to prevent fake-account referral farming? (Phone number verification is a start)
+- **Platform aging**: as the first cohort turns 18+, does Mrki become a general-purpose platform or stay teen-focused?
