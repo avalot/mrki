@@ -37,7 +37,7 @@ A social and collaboration platform for teens (13–18) that is:
 |---|---|
 | **Ad-free** | Viral freemium → parent-paid. No ads, no data sales, ever. |
 | **Privacy-first** | Minimal data collection. No tracking. No profiling. Data belongs to the user. |
-| **Self-moderated** | Community-driven moderation with reputation mechanics — not corporate censors, not unmoderated chaos. |
+| **Self-governed** | No hierarchy. Rotating responsibility, community governance, AI as coordination layer — not corporate censors, not unmoderated chaos. |
 | **Anti-vanity** | You don't see other people's stats. No like counts. No follower leaderboards. |
 | **Pro-connection** | Designed for IRL meetups, real friendships, diverse perspectives, and collaborative projects. |
 | **Mindful by design** | Low friction for thoughtful behavior. High friction for attention-seeking and manipulation. |
@@ -114,7 +114,46 @@ No invasive ID scanning. No government databases. Instead, **smart, layered chec
 - These flags feed into age-appropriate content filtering — the community teaches the system what's appropriate at what age
 - This is not censorship — it's **community-driven age-gating**, and it gets smarter over time
 
-### 8. Anti-Advertising Immune System
+### 8. Distributed Governance: Rotating Responsibility, Remuneration Follows
+
+There is no permanent leadership class. No admins, no mods-for-life, no community managers employed by a company. Instead:
+
+**Responsibility rotates on 90-day cycles.**
+
+Anyone with sufficient reputation can take on a **DRI (Directly Responsible Individual) role** for a specific scope:
+- *"I'm responsible for moderation quality in Mrki Lyon for the next 90 days."*
+- *"I'm owning the spam problem in the photography group this quarter."*
+- *"I'm the DRI for onboarding experience for new users in Marseille."*
+
+DRIs have real authority within their scope — they can escalate moderation decisions, shape local policies, prioritize issues. But the authority is **temporary, scoped, and accountable**. At the end of 90 days, the community reviews their stewardship and the role rotates or renews by vote.
+
+**Remuneration follows responsibility.**
+
+DRIs are compensated from the network's relay revenue. If you take on a governance role and the community confirms you did it well, you earn a share of the revenue your scope generated. This means:
+- **Governance is not volunteer work** — it's recognized, valued, and paid
+- **Compensation is proportional and transparent** — the community sees what DRIs earn and why
+- **No permanent salary, no empire-building** — you earn while you serve, you stop earning when you rotate out
+- **Revenue stays distributed** — relay operators earn for hosting, DRIs earn for governing, AI node operators earn for enrichment. No single entity captures all the value.
+
+**AI replaces the coordination layer, not the people.**
+
+Inspired by Block's "From Hierarchy to Intelligence" thesis (Dorsey & Botha, 2026): hierarchy exists because humans can't hold enough context to coordinate at scale. AI can. But where Block centralizes the intelligence under a CEO, Mrki distributes it:
+
+- **The event stream is the world model** — a continuously updated, queryable picture of everything happening on the network. Every participant has the same context that a manager would have hoarded.
+- **AI enrichment nodes compute the state** — reputation scores, moderation quality metrics, community health indicators, content trends. Multiple nodes compute independently; divergence is a signal, not a failure.
+- **DRIs act with full context** — they don't need a manager to tell them what's happening. The world model shows them. They make decisions, and the event stream records the outcome.
+- **The protocol is the boss** — governance rules are encoded in the protocol and enforced by the community. The Swiss foundation's bylaws bind it to honor on-protocol votes. No person is above the system.
+
+**Emergency authority exists but is scoped and accountable.**
+
+For crises that can't wait 24-72 hours (network attacks, safety emergencies):
+- Pre-authorized **emergency DRIs** can act immediately within defined bounds
+- Every emergency action is logged as an immutable event
+- The community reviews emergency actions after the fact and can revoke emergency authority
+
+This model means: **the network has no ruler, but it has stable coordination.** Responsibility is a service you provide to the community, not a position you hold over it. And the community pays for what it values.
+
+### 9. Anti-Advertising Immune System
 
 Any content that looks like covert advertising is:
 - Flagged by the community
@@ -197,7 +236,7 @@ The minimum product that tests the thesis:
 8. **Projects** — collaborative spaces for building things together
 9. **Events** — IRL meetup creation and confirmation
 10. **Diverse perspectives** — cross-circle content surfacing
-11. **Governance tools** — community voting, proposal system, collective decision-making
+11. **Governance tools** — 90-day DRI roles, community voting, proposal system, DRI compensation from relay revenue
 
 ### Phase 3: Growth (months 7–12)
 
@@ -305,6 +344,7 @@ This is a power move, not a permission slip.
 3. **Regulatory alignment** — we're built for the regulatory future; incumbents are built against it
 4. **Cultural identity** — "I'm on Mrki" is a statement of independence, like choosing Linux over Windows
 5. **Community ownership feeling** — teens who helped build the rules will fight to keep the platform alive
+6. **Distributed governance as moat** — rotating DRIs, transparent compensation, AI coordination layer. No competitor can copy this by hiring a "community team" — it's structural, not staffed
 
 ### The Ask
 
@@ -334,7 +374,7 @@ Ad-free. Privacy-first. Self-governed. Teen-built.
 *"You banned our social media? Fine. We'll build our own. Now pay for it."*
 
 ### Slide 5: How It Works
-Core mechanics: Thanks (not Likes), Invisible Reputation, Fluid Identity, IRL-first, Diverse Perspectives, Community Governance, Anti-Ad Immune System.
+Core mechanics: Thanks (not Likes), Invisible Reputation, Fluid Identity, IRL-first, Diverse Perspectives, Anti-Ad Immune System. No hierarchy: rotating 90-day governance roles, paid from network revenue, coordinated by AI — not by managers.
 
 ### Slide 6: Business Model
 Free until 2028. Then: 6 months free + 1 month per referral (uncapped). €5/month when free runs out, paid by parents. 80%+ gross margin. ~€0 CAC.
