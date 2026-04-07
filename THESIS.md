@@ -53,15 +53,24 @@ There is no "like" button. There is a **"Thank"** — a private signal that says
 - **Weighted**: a thank from someone with high reputation carries more weight
 - **Non-gameable**: you can't see your own thank count in aggregate; you see individual thanks as they arrive, then they fade
 
-### 2. Reputation, Not Clout
+### 2. Trust, Not Clout
 
-Every user has a **reputation score** that is:
+The currency of Mrki is **trust**. Not likes, not followers, not a gamified score — trust, earned through behavior and lost through harm.
+
+Every user has a **reputation** that is:
 - **Invisible to others** — you never see someone else's number
 - **Earned through behavior** — helping others, contributing to projects, showing up IRL, being thanked
 - **Lost through harm** — flagged content, broken commitments, dishonesty
 - **Self-reinforcing** — your reputation affects how much your flags, thanks, and moderation votes matter
 
-This means: **liars lose credibility.** Trolls lose influence. Helpful people quietly gain more power to shape the community — without ever becoming "influencers."
+**Public posting is the primary arena where trust is built and tested.** When you post to a group or to a broader audience, you are putting your reputation on the line. The community's response — thanks, flags, engagement, silence — shapes how much the network trusts you. This is the natural cost of public speech: not a currency, not a stamp, but *exposure to judgment by the people you're addressing*.
+
+This means:
+- **Speaking publicly is consequential** — not expensive, but meaningful. Your public history is your track record.
+- **Liars lose credibility.** Trolls lose influence. Thoughtful contributors quietly gain more power to shape the community.
+- **Private conversation is safe space.** DMs and close-friend groups don't carry the same reputational weight. You can be messy, tentative, and unpolished with your friends.
+- **Teens learn public trust.** The platform is a practice ground for being a trustworthy participant in public life — learning to say things you stand behind, to engage with disagreement, to build a reputation you're proud of.
+- **No one is priced out of speaking.** There is no currency cost to posting. The only cost is that people will see what you said and form an opinion about it — which is how public life actually works.
 
 ### 3. IRL-First Design
 

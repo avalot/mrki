@@ -42,21 +42,21 @@ This document does not prescribe solutions. It states what we want, names the te
 
 ---
 
-## III. What We Want for the Platform's Relationship to Attention
+## III. What We Want for the Platform's Relationship to Attention and Trust
 
 ### The platform should:
 
-1. **Treat attention as a commons, not a commodity.** Every public post is a request for collective attention — a withdrawal from a shared resource. The platform should make this visible without making it punitive.
+1. **Treat attention as a commons, not a commodity.** Every public post is a request for collective attention — a withdrawal from a shared resource. But the natural regulator of that commons is not a currency or a price — it's **trust**. People who use collective attention well earn trust. People who waste it lose trust. This is how public life works offline, and it should work the same way here.
 
-2. **Have natural stopping points.** Infinite scroll is a design choice that says "your time doesn't matter." Finite feeds, daily digests, and "that's everything for now" are design choices that say "your time is yours." But: how do we build a platform that respects your time while still being somewhere you want to come back to?
+2. **Make public speech consequential, not expensive.** There is no currency cost to posting. The cost of public speech is that the community sees it, evaluates it, and updates their trust in you accordingly. This is natural social feedback, not a platform-imposed tax. The question is: how do we make this feedback legible enough to guide behavior without making it a visible score that becomes a vanity metric?
 
-3. **Make the cost of attention legible, not priced.** Weight-aware posting ("this will appear in 230 people's digests") may be more honest and less distorting than gratitude stamps. Making the cost visible lets the poster decide; pricing the cost decides for them. But: legibility without cost is just information. Does it change behavior, or just add noise?
+3. **Have natural stopping points.** Infinite scroll says "your time doesn't matter." Finite feeds, daily digests, and "that's everything for now" say "your time is yours." But: how do we build a platform that respects your time while still being somewhere you want to come back to?
 
-4. **Not create a two-tier system of voice.** If posting publicly costs something (stamps, effort, time), and private messaging is free, we risk hollowing out the public commons as everyone retreats to DMs. The public square is where community forms. How do we keep it worth participating in?
+4. **Protect the public square.** Private conversation is free of reputational weight — that's where you can be messy, tentative, half-formed. But the public commons is where community forms, where governance happens, where the interesting things are. How do we make public participation feel rewarding (not risky) enough that people choose it?
 
 5. **Pace communication without patronizing the communicator.** "Want to wait 5 minutes?" is a nudge. "You must wait 5 minutes" is a gate. The difference matters enormously to a teenager. How much of our pacing is invitation, and how much is imposition?
 
-6. **Acknowledge that not all attention requests are equal** without building a system that silences the verbose, the expressive, or the neurodiverse. A long heartfelt post and a spam blast both "cost" attention — but they are not the same thing. Any cost-based system must distinguish signal from noise without becoming an arbiter of what's worth saying.
+6. **Let trust, not volume, determine reach.** A person who consistently contributes well should have their public posts reach further — not through algorithmic amplification, but through the natural network effect of being someone others want to hear from. But: how do we do this without recreating the influencer dynamic under a different name?
 
 ---
 
@@ -77,7 +77,7 @@ We want every voice to matter. We also want reputation to mean something — to 
 We want the system to be legible — people should understand why things happen. But making reputation visible makes it a target for gaming (Stack Overflow). Making governance rules explicit makes them exploitable. Every transparency gain is a gamification risk. How do we make the mechanism visible without making the score a game?
 
 ### 5. Friction as Care vs. Friction as Exclusion
-Friction can be a gift: "take a moment, this matters." Friction can also be a barrier: "you can't afford to speak here." The same mechanism serves both functions depending on who encounters it. How do we ensure friction falls equitably across economic class, communication style, neurodivergence, and cultural background?
+Friction can be a gift: "take a moment, this matters." Friction can also be a barrier: "this feels like a chore." The same mechanism serves both functions depending on who encounters it. With stamps gone, the main friction is pace (delays, digests, reflection nudges) and consequence (public posts affect reputation). How do we ensure these don't disproportionately burden fast communicators, neurodiverse users, or teens from cultures where public expression norms differ?
 
 ### 6. Local Identity vs. Segregation
 Proximity-based networks celebrate local community. But physical proximity mirrors physical segregation — by race, class, geography. If Mrki Lyon and Mrki Marseille become different worlds, we've replicated the problems of physical space in digital space. The "Diverse Perspectives Engine" is supposed to counteract this — but how hard do we push, and when does gentle nudging become force-feeding?
@@ -94,7 +94,7 @@ Every historical precedent tells us: growth degrades community quality. MetaFilt
 
 Before shipping any feature, ask:
 
-1. **Who does this exclude?** Every mechanic has a shadow. Stamps exclude the poor. Slowness excludes the urgent. Reputation excludes the new. Pseudonymity excludes the accountable. Name the shadow.
+1. **Who does this exclude?** Every mechanic has a shadow. Slowness excludes the urgent. Reputation excludes the new. Pseudonymity excludes the accountable. Public-speech-as-trust-arena may chill the shy. Name the shadow.
 
 2. **Does this produce resonance or just delay?** (Rosa) A feature that slows things down without creating genuine connection is alienation at a different tempo. Delay is not a virtue. Connection is.
 
